@@ -15,11 +15,19 @@
 
         public JobField(string value) : this()
         {
-            Value = value;
+            if(value==null)
+            {
+                Value = "all";
+            }
+            else
+            {
+                Value = value;
+            }
         }
 
         // Provide a basic case-insensitive search
         public bool Contains(string testValue)
+
         {
             return Value.ToLower().Contains(testValue.ToLower());
         }
