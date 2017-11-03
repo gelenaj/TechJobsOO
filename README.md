@@ -11,7 +11,7 @@ Learning Objectives for this assignment:
 -Use model binding and validation with ViewModel classes
 -Create class extensions (that is, use inheritance)
 
-Index 
+# H1Index 
 ![index](https://user-images.githubusercontent.com/29842242/32386016-43ca7532-c096-11e7-999c-00a3b9d127f2.png)
 
 
